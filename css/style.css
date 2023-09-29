@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 5vh;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img{
+    width: 30px;
+    
+}
+
+.text-logo{
+    color: white;
+    font-size: 20px;
+    padding-left: 5px;
+
+}
+
+.links-sho1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.li-sho1{
+    list-style: none;
+   
+}
+
+.a-sho1{
+    text-decoration: none;
+    color: white;
+    padding-right: 14vw;
+    
+    
+}
+
+.header{
+    background-image: url(../img/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (max-width:844px){
+    .header{
+        height: 40vh;
+    }
+
+    .links-sho-con1{
+        display: none;
+    }
+}
